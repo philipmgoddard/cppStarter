@@ -1,0 +1,15 @@
+Package: cppStarter
+Type: Package
+Title: Phil's Practice Rcpp Package
+Version: 0.1
+Date: 2015-11-01
+Author: Philip Goddard
+Maintainer: Philip Goddard <philip.mgoddard@gmail.com>
+Description: A basic selection of base R functions lovingly rewritten in C++.
+License: GPL
+LazyData: TRUE
+Imports:
+    Rcpp (>= 0.12.0)
+LinkingTo:
+    Rcpp
+Suggests: testthat
